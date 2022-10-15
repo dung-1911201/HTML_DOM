@@ -1,0 +1,122 @@
+.container{
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#product-row{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 20px;
+    text-align: center;
+}
+.product-column {
+    background: #333;
+    color:white;
+}
+.btn a{
+    color:white;
+    text-decoration: none;
+    
+}
+.btn{
+    justify-content: space-around;
+    display: flex;
+    padding: 10px;
+}
+.product-col {
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.1));
+    background: #fff;
+    border-radius: 4px;
+    padding: 15px;
+
+}
+.img-fluid{
+    width: 100%;
+}
+.product-link {
+    text-decoration: none;
+    color: #333;
+}
+.header-cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cartdt-row {
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.1));
+    background: #fff;
+    border-radius: 4px;
+    padding: 15px;
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.cartdt-img a img {
+    width: 100px;
+    height: 100px;
+}
+.cartdt-info {
+    margin-left: 30px;
+}
+.cartdt-link {
+    text-decoration: none;
+    color: #333;
+}
+.cartdt-price{
+}
+.cartdt-item {
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+.item{
+    display: flex;
+    max-width: 50%;
+}
+.quantity {
+    display: flex;
+    align-items: center;
+}
+.quantity i {
+    background: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+.quantity-item{
+    padding: 0 15px ;
+}
+.quantity button {
+    border: none;
+    background: none;
+}
+.result {
+    background: #333;
+    color: white;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.shopping-cart{
+    display: flex;
+    align-items: center;
+}
+#quantity-item{
+    /* position: relative;
+    bottom: 12px;
+    right: 14px;
+    color: red;
+} */
+color: red;
+}
